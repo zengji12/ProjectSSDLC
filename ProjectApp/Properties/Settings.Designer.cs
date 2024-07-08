@@ -22,5 +22,53 @@ namespace ProjectApp.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string AccessToken {
+            get {
+                return ((string)(this["AccessToken"]));
+            }
+            set {
+                this["AccessToken"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FullName {
+            get {
+                return ((string)(this["FullName"]));
+            }
+            set {
+                this["FullName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Alamat {
+            get {
+                return ((string)(this["Alamat"]));
+            }
+            set {
+                this["Alamat"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://app-api.korpstar-poltekssn.org/")]
+        public string ApiBaseUrl {
+            get {
+                return ((string)(this["ApiBaseUrl"]));
+            }
+            set {
+                this["ApiBaseUrl"] = value;
+            }
+        }
     }
 }

@@ -1,17 +1,4 @@
-<<<<<<< Updated upstream
-﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProjectApp.Properties" GeneratedClassName="Settings">
-  <Profiles />
-  <Settings>
-    <Setting Name="AccessToken" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="FullName" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-  </Settings>
-=======
-﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProjectApp.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
@@ -28,5 +15,4 @@
       <Value Profile="(Default)">https://app-api.korpstar-poltekssn.org/</Value>
     </Setting>
   </Settings>
->>>>>>> Stashed changes
 </SettingsFile>
